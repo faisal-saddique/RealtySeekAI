@@ -15,7 +15,7 @@ vectorstore_path = "index/realty_seek_vectorstore"
 
 st.set_page_config(page_title="Realty Seek AI", page_icon="💬")
 
-st.header('Jarvis (Realtor Robot)')
+st.header('Jarvis (RealtorBot)')
 
 # Create OpenAIEmbeddings object using the provided API key
 embeddings = OpenAIEmbeddings()
