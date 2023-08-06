@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-vectorstore_path = "index/realty_seek_vectorstore"
+vectorstore_path = "realty_seek_vectorstore"
 
 st.set_page_config(page_title="Realty Seek AI", page_icon="💬")
 
