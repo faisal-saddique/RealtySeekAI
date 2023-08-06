@@ -21,7 +21,7 @@ def enable_chat_history(func):
         st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
     for msg in st.session_state["messages"]:
         if msg["role"] == "assistant":
-            st.chat_message(msg["role"],avatar="./assets/boom.png").write(msg["content"])
+            st.chat_message(msg["role"],avatar="assets/boom.png").write(msg["content"])
         else:
             st.chat_message(msg["role"]).write(msg["content"])
 

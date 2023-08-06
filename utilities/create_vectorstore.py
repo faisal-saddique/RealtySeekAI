@@ -21,7 +21,7 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 # Replace with the name of the directory carrying your data
-data_directory = "data"
+data_directory = "files"
 
 # Load your documents from different sources
 def get_documents():
